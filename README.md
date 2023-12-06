@@ -1,38 +1,20 @@
-# CIS 355 Lab 2 
 
-## Getting Started
+# Recipe Share
 
-### Initial Setup
-Before you run the application, set up the database by following these steps. This ensures everything works smoothly.
+Welcome to Recipe Share, a platform where food enthusiasts can come together to share and discover delicious recipes from around the world.
 
-### Prerequisites
-- Open the project in VS Code and connect to the provided Dev Container. 
+## Features
 
-### Database Configuration
-1. **Restore Dotnet Tools**: 
-   Run `dotnet tools restore` in the terminal to install the Entity Framework (EF) CLI, necessary for applying EF migrations.
+- **Recipe Upload**: Easily share your favorite recipes with the community by uploading them to Recipe Share. Include ingredients, instructions, and even a mouthwatering photo of the dish.
+- **Search and Filter**: Effortlessly find recipes that suit your taste and dietary preferences. Search by keywords, ingredients, cuisine, or dietary restrictions.
+- **Rating and Reviews**: Rate and review recipes that you've tried. Help others discover the best recipes and get inspired by feedback from fellow foodies.
+- **Save and Bookmark**: Save recipes that catch your eye for future reference. Build your own personal collection of go-to dishes.
+- **Social Engagement**: Connect with other users, follow their profiles, and engage in discussions about recipes, cooking techniques, and culinary inspirations.
+- **User Profiles**: Customize your profile with a profile picture, a bio, and a list of your favorite recipes. Showcase your cooking expertise and connect with like-minded food lovers.
 
-2. **Apply Database Migrations**: 
-   Use `dotnet ef update` to apply all EF migrations and create the database if it doesn't exist.
+## Setup Instructions
 
-### Running the Application
-After setting up the database, start the application using `dotnet run` or through your IDE. It will automatically create a default admin account.
 
-See the "Default Admin Account" section for more information on using this account.
+## Troubleshooting Guide
 
-## Default Admin Account
-
-### Overview
-A default admin account is created automatically on the first startup in a development environment. It's designed for immediate access to administrative features.
-
-### Account Details
-- **Username**: `admin`
-- **Email**: `admin@admin.com`
-- **Password**: `password`
-- **Role**: `Admin`
-
-### Usage
-Use this account to sign in and access administrative areas. It's fully enabled for all features and settings, ideal for setup and testing.
-
-### Troubleshooting
-If you can't access the application with the admin account, check if the database has been seeded correctly and look for any startup errors in the application logs.
+Encountering any issues while setting up or using Recipe Share? Check out our [Troubleshooting Guide](troubleshooting.md) for common problems and their solutions. If you're still facing any difficulties, feel free to reach out to our support team.
