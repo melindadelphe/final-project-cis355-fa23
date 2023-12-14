@@ -1,20 +1,40 @@
+Getting Started
 
-# Recipe Share
+This is an example of how you may give instructions on setting up and update README.md with new feature documentation.
 
-Welcome to Recipe Share, a platform where food enthusiasts can come together to share and discover delicious recipes from around the world.
+Prerequisites 
 
-## Features
+This is an example of how to list things you need to use the software and how to install them
 
-- **Recipe Upload**: Easily share your favorite recipes with the community by uploading them to Recipe Share. Include ingredients, instructions, and even a mouthwatering photo of the dish.
-- **Search and Filter**: Effortlessly find recipes that suit your taste and dietary preferences. Search by keywords, ingredients, cuisine, or dietary restrictions.
-- **Rating and Reviews**: Rate and review recipes that you've tried. Help others discover the best recipes and get inspired by feedback from fellow foodies.
-- **Save and Bookmark**: Save recipes that catch your eye for future reference. Build your own personal collection of go-to dishes.
-- **Social Engagement**: Connect with other users, follow their profiles, and engage in discussions about recipes, cooking techniques, and culinary inspirations.
-- **User Profiles**: Customize your profile with a profile picture, a bio, and a list of your favorite recipes. Showcase your cooking expertise and connect with like-minded food lovers.
+-Docker
+-Postman
+-VScode
+-Github
 
-## Setup Instructions
+Installation
+
+-Docker: Download Docker Desktop
+Note for OSX Users: Make sure to download the version matching your system architecture. Intel Docker won't work on Apple Silicon machines.
+Note for Windows Users: Ensure that you're set up to use Linux containers, not 
+
+-Windows Containers.
+Visual Studio Code: Download VS Code
+
+-Postman: https://www.postman.com/downloads/
+
+-Github: https://forms.office.com/r/5kwM9ZBWm6
 
 
-## Troubleshooting Guide
+Usage 
 
-Encountering any issues while setting up or using Recipe Share? Check out our [Troubleshooting Guide](troubleshooting.md) for common problems and their solutions. If you're still facing any difficulties, feel free to reach out to our support team.
+
+-Use git CLI or VS Code to clone the newly created repository for your assignment.
+-Make changes to the code base to meet the requirements of the assignment.
+-Use git add . and git commit -m "Your commit message" as you go to commit meaningful -changes.
+-Use git push to make changes available on GitHub.
+
+
+Contact
+
+name: Delphe Melinda
+email: ngako001@gannon.edu
